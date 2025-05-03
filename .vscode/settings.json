@@ -1,0 +1,44 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.flashType": "UART",
+  "idf.port": "/dev/ttyACM1",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "files.associations": {
+    "*.inc": "c",
+    "type_traits": "c",
+    "cmath": "c",
+    "limits": "c",
+    "unity.h": "c",
+    "ble_svc_gatt.h": "c",
+    "esp_spiffs.h": "c",
+    "task.h": "c",
+    "nvs_flash.h": "c",
+    "schema_generated.h": "c",
+    "micro_interpreter.h": "c",
+    "mpu6050.h": "c",
+    "micro_mutable_op_resolver.h": "c",
+    "array": "cpp",
+    "bitset": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "regex": "cpp",
+    "utility": "cpp",
+    "nimble_port_freertos.h": "c",
+    "chrono": "cpp",
+    "*.ipp": "cpp",
+    "string": "cpp",
+    "ble_provider.h": "c"
+  },
+  "idf.portWin": "COM15",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "C:\\Users\\user\\.espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1",
+    "IDF_TARGET": "esp32c3"
+  },
+  "idf.espIdfPathWin": "c:\\Users\\user\\esp\\esp-idf",
+  "idf.toolsPathWin": "C:\\Users\\user\\.espressif",
+  "idf.pythonInstallPath": "C:\\Users\\user\\.espressif\\tools\\idf-python\\3.8.7\\python.exe"
+}
