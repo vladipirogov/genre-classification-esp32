@@ -70,6 +70,11 @@ idf.py flash monitor
 │   ├── u8g2_esp32_hal.c       # Implementation of U8G2 HAL
 │   ├── MFCC_Q15.cc            # MFCC computation logic
 │   ├── model.h                # TensorFlow Lite model header
+│   ├── dct_wei_mtx_q15_T.h    # DCT weight matrix for MFCC computation
+│   ├── hann_lut_q15.h         # Hanning window lookup table
+│   ├── log_lut_q13_3.h        # Logarithm lookup table
+│   ├── mel_wei_mtx_q15_T.h    # Mel filter bank weights
+│   ├── mfccs_consts.h         # Constants for MFCC computation
 ├── components
 │   ├── esp-tflite-micro       # TensorFlow Lite Micro component
 │   ├── esp-mfcc               # MFCC computation library
